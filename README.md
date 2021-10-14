@@ -1,7 +1,14 @@
 # Sada-Repo
-
+## Run code:
+# Dependecies:
+- pandas
+- numpy
+- json
+# Run:
+- Clone this repository
+- In bash, use command -> run.bat
 ## Input needed
-- The input needed is a csv. You can change the input on the python script at the top and just change the name.
+- The input needed is a csv, with a column named "Prices (in millions)". You can change the input on the python script at the top and just change the name.
 ## Output produced
 - The ouput produced is a json file named data2.json. There are also 3 print statments printed; the total number of rows there are in the csv, the total number of rows that are float numbers, and the top 20 rows, with the highest profit. 
 ## The code
