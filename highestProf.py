@@ -81,12 +81,12 @@ def JSONFormat(csv1):
     csv = csv1.sort_values('Profit (in millions)', ascending=False)
     csv = csv.reset_index(drop=True)
     data2 = []
-    rows = len(csv['Year'])
+    rows = len(csv["Profit (in millions)"])
     numPrint = 20
     printB = True
     print("Top 20: ")
     for x in range(rows):
-        if len(csv['Year']) == 0:
+        if len(csv["Profit (in millions)"]) == 0:
             break;
         dataRow = {}
         num = x
