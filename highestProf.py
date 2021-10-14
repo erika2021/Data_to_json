@@ -9,8 +9,6 @@ import json
 import numpy
 
 
-# In[1329]:
-
 
 def main():
     csv = pd.read_csv(r'C:\Users\dcard\Downloads\sadaData.csv')
@@ -19,7 +17,6 @@ def main():
     numpy.savetxt("data2.json", jsonD, '%s')
 
 
-# In[1330]:
 
 
 # Part 1
@@ -35,7 +32,6 @@ def main():
 # after removing all the rows with invalid non-numeric profit column data. This is your second printed answer.
 
 
-# In[1331]:
 
 
 #counts number of rows, and removes rows where profit is not float type
@@ -63,7 +59,6 @@ def scanCSV(csv):
     return csv
 
 
-# In[1332]:
 
 
 # You can now convert the content your read into memory in your program in Part 1 into JSON format 
@@ -75,13 +70,6 @@ def scanCSV(csv):
 # This is your third printed answer.
 
 
-# In[ ]:
-
-
-
-
-
-# In[1333]:
 
 
 # method that takes the CSV and returns the CSV into JSON format in order of highest to lowest profit
@@ -112,19 +100,12 @@ def JSONFormat(csv1):
     return data2
 
 
-# In[1334]:
 
 
 main()
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
 
 
 
