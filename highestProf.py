@@ -14,7 +14,8 @@ def main():
     csv = pd.read_csv(r'sadaData.csv')
     csv = scanCSV(csv)
     jsonD = JSONFormat(csv)
-    numpy.savetxt("data2.json", jsonD, '%s')
+    with open('data2.json', 'w') as f:
+        f.write(str(jsonD))
 
 
 
