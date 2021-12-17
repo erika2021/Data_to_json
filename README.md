@@ -1,4 +1,4 @@
-# Sada-Repo
+# Coding test for Sada - takes a csv and ouput's a json file
 ## Run code:
 # Dependecies:
 - pandas
